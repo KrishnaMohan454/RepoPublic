@@ -1,0 +1,27 @@
+PODS:
+  - DSCapture (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - DSCapture (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  DSCapture:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DSCapture: 02db14eb8d20b528a2b4d268c1f666030116acce
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 5ec4f1b73e348c97872e7fd9e5b348fbc39bbbb2
+
+COCOAPODS: 1.9.1
