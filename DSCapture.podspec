@@ -43,4 +43,5 @@ publish cocoapods & utilize into app through dependecies.
   # s.dependency 'AFNetworking', '~> 2.3'
   
     s.dependency 'TinyConstraints', '~> 4.0.1'
+    s.dependency  'PPBlinkID', '~> 5.4.0'
 end
