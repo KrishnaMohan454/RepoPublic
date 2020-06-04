@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 publish cocoapods & utilize into app through dependecies.
                        DESC
 
-  s.homepage         = 'https://github.com/KrishnaMohan454/DSCapture'
+  s.homepage         = 'https://github.com/KrishnaMohan454/RepoPublic'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'KrishnaMohan454' => 'krishnamohan@authenticid.co' }
-  s.source           = { :git => 'https://github.com/KrishnaMohan454/DSCapture.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/KrishnaMohan454/RepoPublic.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.0'
@@ -42,5 +42,5 @@ publish cocoapods & utilize into app through dependecies.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   
-    s.dependency 'TinyConstraints' ~> 4.0.1 
+    s.dependency 'TinyConstraints', '~> 4.0.1'
 end
