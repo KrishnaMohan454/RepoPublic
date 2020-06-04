@@ -20,10 +20,10 @@
 		74ABCA541E72F77A021005B120DD00B3 /* Pods-DSCapture_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4449E9BE7C85979E82A331D660621AC5 /* Pods-DSCapture_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7785E529E735A1BFEDAE032349A760DA /* Pods-DSCapture_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA08B07EF2FA407582B78A84C2998F64 /* Pods-DSCapture_Tests-dummy.m */; };
 		787A4E0F1B9533F900231BC81042316F /* DSCapture-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6A77968C63B2E9E63654B62BCB5D30 /* DSCapture-dummy.m */; };
-		8708C4B72488F87F00BD612E /* ModelClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 8708C4B52488F87F00BD612E /* ModelClass.h */; };
 		8708C4B82488F87F00BD612E /* ModelClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8708C4B62488F87F00BD612E /* ModelClass.m */; };
 		8744FA8D2488FA460026B05A /* DSCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 8744FA8B2488FA460026B05A /* DSCapture.m */; };
-		8744FA8E2488FA460026B05A /* DSCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 8744FA8C2488FA460026B05A /* DSCapture.h */; };
+		8744FA9024890BDD0026B05A /* DSCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 8744FA8F24890BDD0026B05A /* DSCapture.h */; };
+		8744FA9224890BF60026B05A /* ModelClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 8744FA9124890BF60026B05A /* ModelClass.h */; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -100,10 +100,10 @@
 		76E8A5F1CB90598AFE62BB2B9D53F315 /* Pods-DSCapture_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DSCapture_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		8708C4B52488F87F00BD612E /* ModelClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelClass.h; sourceTree = "<group>"; };
 		8708C4B62488F87F00BD612E /* ModelClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelClass.m; sourceTree = "<group>"; };
 		8744FA8B2488FA460026B05A /* DSCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSCapture.m; sourceTree = "<group>"; };
-		8744FA8C2488FA460026B05A /* DSCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSCapture.h; sourceTree = "<group>"; };
+		8744FA8F24890BDD0026B05A /* DSCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSCapture.h; sourceTree = "<group>"; };
+		8744FA9124890BF60026B05A /* ModelClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelClass.h; sourceTree = "<group>"; };
 		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
@@ -271,9 +271,9 @@
 		8708C4B42488F82B00BD612E /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				8744FA8C2488FA460026B05A /* DSCapture.h */,
+				8744FA8F24890BDD0026B05A /* DSCapture.h */,
 				8744FA8B2488FA460026B05A /* DSCapture.m */,
-				8708C4B52488F87F00BD612E /* ModelClass.h */,
+				8744FA9124890BF60026B05A /* ModelClass.h */,
 				8708C4B62488F87F00BD612E /* ModelClass.m */,
 			);
 			path = Source;
@@ -390,8 +390,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1C9A0A1D7FF4D3871B11B76B7649075 /* DSCapture-umbrella.h in Headers */,
-				8708C4B72488F87F00BD612E /* ModelClass.h in Headers */,
-				8744FA8E2488FA460026B05A /* DSCapture.h in Headers */,
+				8744FA9024890BDD0026B05A /* DSCapture.h in Headers */,
+				8744FA9224890BF60026B05A /* ModelClass.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
