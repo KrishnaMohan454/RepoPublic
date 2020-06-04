@@ -42,5 +42,5 @@ publish cocoapods & utilize into app through dependecies.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   
-    s.dependency 'TinyConstraints' ~> 4.0.1
+    s.dependency 'TinyConstraints' ~> 4.0.1 
 end
